@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "    1    " << "    2    " << "    3    " << "    4    " << endl;
+    cout << "   ___   " << "   ___   " << "   ___   " << "   ___   " << endl;
+    cout << " x|*T*|x " << " x|   |o " << " o| T |x " << " x|   |x " << endl;
+    cout << "  |   |  " << "  | T |  " << "  |   |  " << "  | T |  " << endl;
+    cout << "   ---   " << "   ---   " << "   ---   " << "   ---   " << endl;
+    cout << "    P    " << "    E    " << "    I    " << "    C    " << endl;
+    cout << endl << endl;
+    cout << "    1    " << "    2    " << "    3    " << "    4    " << endl;
+    cout << "   ___   " << "   ___   " << "   ___   " << "   ___   " << endl;
+    cout << " o| T |x " << " x|   |x " << " x|*T*|x " << " o|   |x " << endl;
+    cout << "  |   |  " << "  | T |  " << "  |   |  " << "  | T |  " << endl;
+    cout << "   ---   " << "   ---   " << "   ---   " << "   ---   " << endl;
+    cout << "    I    " << "    C    " << "    P    " << "    E    " << endl;
+    cout << endl << endl;
+    cout << "    1    " << "    2    " << "    3    " << "    4    " << endl;
+    cout << "   ___   " << "   ___   " << "   ___   " << "   ___   " << endl;
+    cout << " x|   |x " << " x|*T*|x " << " x|   |o " << " o| T |x " << endl;
+    cout << "  | T |  " << "  |   |  " << "  | T |  " << "  |   |  " << endl;
+    cout << "   ---   " << "   ---   " << "   ---   " << "   ---   " << endl;
+    cout << "    C    " << "    P    " << "    E    " << "    I    " << endl;
+    cout << endl << endl;
+    cout << "    1    " << "    2    " << "    3    " << "    4    " << endl;
+    cout << "   ___   " << "   ___   " << "   ___   " << "   ___   " << endl;
+    cout << " x|   |o " << " o| T |x " << " x|   |x " << " x|*T*|x " << endl;
+    cout << "  | T |  " << "  |   |  " << "  | T |  " << "  |   |  " << endl;
+    cout << "   ---   " << "   ---   " << "   ---   " << "   ---   " << endl;
+    cout << "    E    " << "    I    " << "    C    " << "    P    " << endl;
+    cout << endl << endl;
+    cout << "    1    " << "    2    " << "    3    " << "    4    " << endl;
+    cout << "   ___   " << "   ___   " << "   ___   " << "   ___   " << endl;
+    cout << " x|*T*|x " << " x|   |o " << " o| T |x " << " x|   |x " << endl;
+    cout << "  |   |  " << "  | T |  " << "  |   |  " << "  | T |  " << endl;
+    cout << "   ---   " << "   ---   " << "   ---   " << "   ---   " << endl;
+    cout << "    P    " << "    E    " << "    I    " << "    C    " << endl;
+    return 0;
+}
