@@ -1,0 +1,46 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+    int highest = 100,lowest = 0;
+    int guess, attempts = 0;
+    char choice;
+    cout << endl << "THINK OF A BETWEEN 1 & 100." << endl ;
+    guess = ((highest - lowest) / 2) ;
+    while((highest - lowest)!=1)
+    {
+        cout << endl << "I GUESS IT IS " <<guess<< ". AM I RIGHT?" << endl << endl << "'Q' to Quit, 'Y' if it is Correct, 'H' if too High and 'L' if too Low. "<< endl;
+
+        attempts++;
+        cin>>choice;
+
+        if(choice=='h' || choice=='H')
+        {
+            highest = guess;
+            guess -= ( highest - lowest ) / 2;
+        }
+        else if(choice=='l' || choice=='L')
+        {
+            lowest = guess;
+            guess += ( highest - lowest ) / 2;
+        }
+        else if (choice=='q' || choice=='Q')
+        {
+            cout << endl <<"YOU QUIT.BYE"<<endl;
+            break;
+        }
+        else if (choice=='y' || choice=='Y')
+        {
+            cout << endl <<"I GUSSED IT IN "<< attempts <<" ATTEMPTS."<<endl;
+            break;
+        }
+        else
+        {
+            cout<<"I didn't understand that response."<<endl;
+        }
+    }
+    getch();
+    return 0;
+}
